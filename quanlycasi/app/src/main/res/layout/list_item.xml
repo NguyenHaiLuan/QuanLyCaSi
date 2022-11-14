@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/hinhanh"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/hinhanh"
+        android:text="Tên ca sĩ"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nghedanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ten"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/hinhanh"
+        android:text="Nghệ danh"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/quocgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nghedanh"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/hinhanh"
+        android:text="Quốc gia"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/sosao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nghedanh"
+        android:layout_marginTop="15dp"
+        android:text="Số sao"
+        android:textStyle="italic"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"/>
+
+</RelativeLayout>

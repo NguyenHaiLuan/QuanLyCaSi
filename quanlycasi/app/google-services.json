@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149275281601",
+    "project_id": "quanlycasi-d36fb",
+    "storage_bucket": "quanlycasi-d36fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149275281601:android:4b2ca048c145d6cbb62c40",
+        "android_client_info": {
+          "package_name": "nhl69.luansapp.quanlycasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149275281601-367h0ift6ukmcaj0jnnrn3vcvva0pu80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZaMPJwT15leNVWidoGdg46sYb8NLmtfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149275281601-367h0ift6ukmcaj0jnnrn3vcvva0pu80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
